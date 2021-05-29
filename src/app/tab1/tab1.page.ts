@@ -34,6 +34,36 @@ export class Tab1Page {
       generos: ['Ação', 'Aventura', 'Fantasia', 'Ficção científica'],
       pagina: '/liga-justica',
     },
+    {
+      nome: 'Godzilla vs. Kong (2021)',
+      lancamento: '01/04/2021',
+      duracao: '1h 53m',
+      classificacao: 81,
+      cartaz:
+        'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wllzjZxg4ynlAm5xmOICJ2uHOPJ.jpg',
+      generos: ['Ação', 'Ficção', 'científica'],
+      pagina: '/godzilla_kong',
+    },
+    {
+      nome: 'Sem Remorso (2021)',
+      lancamento: '30/04/2021 ',
+      duracao: '1h 50m',
+      classificacao: 72,
+      cartaz:
+        'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uHEZ4ZMziIjlAgCTQAEh9ROvtj0.jpg',
+      generos: ['Ação', 'Thriller', 'Guerra'],
+      pagina: '/sem_remorso',
+    },
+    {
+      nome: 'Raya e o Último Dragão (2021)',
+      lancamento: '04/03/2021',
+      duracao: '1h 47m',
+      classificacao: 82,
+      cartaz:
+        'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/o2NTWpD6LVf1YyPKTdvcEuHqcJ6.jpg',
+      generos: ['Animação', 'Aventura', 'Fantasia', 'Família', 'Ação'],
+      pagina: '/raya_ultimo',
+    },
   ];
 
   constructor(

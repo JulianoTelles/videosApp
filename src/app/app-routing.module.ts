@@ -17,6 +17,18 @@ const routes: Routes = [
   {
     path: 'dados-filme',
     loadChildren: () => import('./dados-filme/dados-filme.module').then( m => m.DadosFilmePageModule)
+  },
+  {
+    path: 'godzilla-kong',
+    loadChildren: () => import('./filmes/godzilla-kong/godzilla-kong.module').then( m => m.GodzillaKongPageModule)
+  },
+  {
+    path: 'sem-remorso',
+    loadChildren: () => import('./filmes/sem-remorso/sem-remorso.module').then( m => m.SemRemorsoPageModule)
+  },
+  {
+    path: 'raya-ultimo',
+    loadChildren: () => import('./filmes/raya-ultimo/raya-ultimo.module').then( m => m.RayaUltimoPageModule)
   }
 ];
 @NgModule({
