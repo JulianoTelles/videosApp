@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { RayaUltimoPageRoutingModule } from './raya-ultimo-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 
-import { RayaUltimoPage } from './raya-ultimo.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    RayaUltimoPageRoutingModule
+    LoginPageRoutingModule
   ],
-  declarations: [RayaUltimoPage]
+  declarations: [LoginPage]
 })
-export class RayaUltimoPageModule {}
+export class LoginPageModule {}

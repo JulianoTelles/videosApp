@@ -1,5 +1,5 @@
 import { DadosService } from './../services/dados.service';
-import { IFilme } from './../tab1/models/IFilme.model';
+import { IFilme } from '../models/IFilme.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
